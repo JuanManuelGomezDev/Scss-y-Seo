@@ -1,0 +1,41 @@
+@import "colores";
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import "header";
+@import "footer";
+@import "maincontacto";
+@import "mainacercade";
+@import "mainingresar";
+@import "maincompraboost";
+@import "mainhtml";
+@import "mainindex";
+
+
+
+$estilos: (
+    position: absolute,
+    ancho: 100%,
+    alto: 100%,
+    backface: hidden,
+    centro: center,
+    font: 2rem,
+    backimage: linear-gradient(to bottom, #a43a5c, #a44463, #a44e69, #a45770, #a46076),
+    color: #fff,
+    dplay: flex,
+);
+
+
+.frente{
+    position: map-get($estilos, position);
+  width: map-get($estilos, ancho);
+  height: map-get($estilos, alto);
+  backface-visibility:map-get($estilos, backface);
+  justify-content: map-get($estilos, centro);
+  font-size: map-get($estilos, font);
+  background-image: map-get($estilos, backimage);
+  color:map-get($estilos, color);
+display: map-get($estilos, dplay);
+
+}
+
+
+

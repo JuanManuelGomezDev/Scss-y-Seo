@@ -1,0 +1,207 @@
+button {
+    overflow: visible;
+  }
+  h1 {
+    color: #474544;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .underline {
+    border-bottom: solid 2px #474544;
+    margin: -0.512em auto;
+    width: 80px;
+  }
+  
+  .icon_wrapper {
+    margin: 50px auto 0;
+    width: 100%;
+  }
+  
+  .icon {
+    display: block;
+    fill: #474544;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+  }
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+  
+}
+.form3 {
+  background-image: linear-gradient(to top, #7a0332, #7d0f39, #7f183f, #822046, #84274c);
+  width: 500px;
+  height: 600px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.title2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: black;
+}
+.inputContainer {
+  position: relative;
+  height: 64px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+.label2 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-image: linear-gradient(to top, #7a0332, #7d0f39, #7f183f, #822046, #84274c);
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+.input2 {
+	&:focus {
+		+ {
+			.label2 {
+				top: -7px;
+				left: 3px;
+				z-index: 10;
+				font-size: 14px;
+				font-weight: 600;
+				color: black;
+			}
+		}
+		border: 2px solid black;
+	}
+	&:not(:placeholder-shown)+ {
+		.label2 {
+			top: -7px;
+			left: 3px;
+			z-index: 10;
+			font-size: 14px;
+			font-weight: 600;
+		}
+	}
+}
+.signupFrm{
+  background-color: none;
+}
+
+.input-group-text{
+  height: 38px;
+  background-image: linear-gradient(to bottom, #653882, #5f347b, #593073, #532d6c, #4d2965);
+  color: white;
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 376px){
+  .carousel-item{
+    height: 210px;
+  }
+  .nav-item{
+    padding: 0; 
+    padding-left: 0; 
+    padding-top: 0;
+  }
+  .nav-link{ padding: 0;
+    margin: 0px 6px;
+    font-size: 13px;}
+  .nav a{
+    
+    margin: 0px 6px;
+    font-size: 13px;
+  }
+  .container-fluid{
+    padding-right:0;
+    padding-left: 0;
+  }
+  .cartas{
+    display: flex;
+    flex-direction: column;
+  }
+  #contenedorCartas{
+    display: flex;
+    flex-direction: column;
+  }
+  .mb-5 {
+    margin-bottom: 3.5rem!important;
+  }
+  .card{margin: 0;
+  margin-bottom: 1rem;}
+  .compraboost2{
+    width: 95%;
+    margin: 3rem auto;
+  }
+  .img-fluid img{
+    max-width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+    height: auto;
+  }
+  .cardacerca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .flip-container{
+    margin-top: 1rem;
+  }
+  #contact_form{
+    
+    margin: 0;
+  }
+  .pagContacto{
+    margin-bottom: 3rem;
+  }
+  .fondocontacto{     --bs-gutter-x: 0rem; 
+  }
+  .name{width: 52%;}
+  .form3{
+    width: 100%;
+  }
+}

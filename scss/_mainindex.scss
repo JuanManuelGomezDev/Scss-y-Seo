@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #c49393, #ba8c8c, #b08484, #a77d7d, #9d7676);
+ }
+ 
+
+.carousel-item {
+	margin-top: 50px;
+	height: 600px;
+}
+
+.card {
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+	border: none;
+	&:hover {
+		box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+		transform: translateY(-3%);
+	}
+}
+
+.index1{
+    background-image: linear-gradient(to bottom, #a43a5c, #a44463, #a44e69, #a45770, #a46076);
+}
+
+@media screen and (max-width: 376px){
+    .carousel-item{
+      height: 210px;
+    }
+}
+
+    #contenedorCartas {
+        display: flex;
+        flex-direction: row;
+    }
+    .mb-5 {
+        margin-bottom: 3.5rem !important;
+    }
+    .card {
+        margin: 6px;
+        margin-bottom: 1rem;
+    }
+    
+    .container-card{
+        width: 100%;
+        display: flex;
+        max-width: 1100px;
+        margin: auto;
+    }
+    .title-cards{
+        width: 100%;
+        max-width: 1080px;
+        margin: auto;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        color: #7a7a7a;
+    }
+    .img-fluid{
+        display: flex;
+        align-items: center;
+      }
+
+      .cartas{
+        display: flex;
+        flex-direction: column;
+      }
+     
+    .nav-item{
+        margin: 35px;
+    }
+     .collapse{
+        display: flex;
+        justify-content: space-around;
+    }
