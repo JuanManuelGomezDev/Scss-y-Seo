@@ -24,13 +24,13 @@
 	transform-style: preserve-3d;
 	transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
 	align-items: center;
-	color: #FFF;
+	color: aqua;
 	h3 {
 		display: flex;
 		align-items: center;
 	}
 	p {
-		color: #FFF;
+		color: aqua;
 	}
 }
 card {
@@ -46,8 +46,8 @@ card {
 	backface-visibility: hidden;
 	justify-content: center;
 	font-size: 2rem;
-	background-image: linear-gradient(to top, #a43a5c, #a44463, #a44e69, #a45770, #a46076);
-	color: #faebd7;
+	background-image: linear-gradient(to bottom, #590c6f, #630f7a, #6c1386, #761691, #801a9d);
+	color: aqua;
 	transform: rotateY(180deg);
 	display: flex;
 	align-items: center;
@@ -71,7 +71,14 @@ card {
     height: 55%;
 }
 .acercade1 {
-	background-image: linear-gradient(to bottom, #a43a5c, #a44463, #a44e69, #a45770, #a46076);
+	background-image: linear-gradient(to bottom, #590c6f, #630f7a, #6c1386, #761691, #801a9d);
 	font-family: Times New Roman, Times, Garamond, Georgia, Cambria;
+	color: aqua;
 }
 
+.tacerca{
+	color: yellow;
+}
+.sacerca{
+	color: yellow;
+}

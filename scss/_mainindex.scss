@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, #c49393, #ba8c8c, #b08484, #a77d7d, #9d7676);
+    background-image: linear-gradient(to bottom, #141d2a, #151c26, #161a22, #17191e, #17181a);
  }
  
 
@@ -30,7 +30,8 @@ body{
 }
 
 .index1{
-    background-image: linear-gradient(to bottom, #a43a5c, #a44463, #a44e69, #a45770, #a46076);
+    background-image: linear-gradient(to bottom, #590c6f, #630f7a, #6c1386, #761691, #801a9d);
+    color: white;
 }
 
 @media screen and (max-width: 376px){
@@ -41,7 +42,7 @@ body{
 
     #contenedorCartas {
         display: flex;
-        flex-direction: row;
+        
     }
     .mb-5 {
         margin-bottom: 3.5rem !important;
@@ -83,3 +84,10 @@ body{
         display: flex;
         justify-content: space-around;
     }
+   .card-title{
+    color: yellow;
+   }
+    .card-text{
+        color: aqua;
+    }
+   

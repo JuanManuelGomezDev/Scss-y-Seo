@@ -18,8 +18,8 @@ $estilos: (
     backface: hidden,
     centro: center,
     font: 2rem,
-    backimage: linear-gradient(to bottom, #a43a5c, #a44463, #a44e69, #a45770, #a46076),
-    color: #fff,
+    backimage: linear-gradient(to bottom, #590c6f, #630f7a, #6c1386, #761691, #801a9d),
+    color: aqua,
     dplay: flex,
 );
 
@@ -36,6 +36,5 @@ $estilos: (
 display: map-get($estilos, dplay);
 
 }
-
 
 

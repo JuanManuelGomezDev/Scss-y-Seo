@@ -60,17 +60,18 @@ button {
   left: 0px;
   height: 100%;
   width: 100%;
-  border: 1px solid #DADCE0;
+  
   border-radius: 7px;
   font-size: 16px;
   padding: 0 20px;
   outline: none;
   background: none;
   z-index: 1;
+  border-bottom: 2px solid black;
   
 }
 .form3 {
-  background-image: linear-gradient(to top, #7a0332, #7d0f39, #7f183f, #822046, #84274c);
+  background-image: $bgcolorfondoingresar;
   width: 500px;
   height: 600px;
   border-radius: 8px;
@@ -80,7 +81,7 @@ button {
 .title2 {
   font-size: 50px;
   margin-bottom: 50px;
-  color: black;
+  color: aqua;
 }
 .inputContainer {
   position: relative;
@@ -93,8 +94,8 @@ button {
   top: 15px;
   left: 15px;
   padding: 0 4px;
-  background-image: linear-gradient(to top, #7a0332, #7d0f39, #7f183f, #822046, #84274c);
-  color: #DADCE0;
+  background-image: $bgcolorfondoingresar;
+  color: aqua;
   font-size: 16px;
   transition: 0.5s;
   z-index: 0;
@@ -204,4 +205,8 @@ button {
   .form3{
     width: 100%;
   }
+}
+
+.label2{
+  border-bottom: solid 2px yellow;
 }

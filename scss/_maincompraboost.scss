@@ -2,7 +2,8 @@
 .compraboost2{
     width: 95%;
     margin: 3rem auto;
-  background-image: $fondocompraboost;
+	background-image: linear-gradient(to bottom, #590c6f, #630f7a, #6c1386, #761691, #801a9d);
+	color: aqua;
   }
 
   .submitBtn {
@@ -10,14 +11,14 @@
 	margin-left: auto;
 	padding: 15px 30px;
 	border: none;
-	background-color: purple;
-	color: white;
+	background-color: aqua;
+	color: yellow;
 	border-radius: 6px;
 	cursor: pointer;
 	font-size: 16px;
 	margin-top: 30px;
 	&:hover {
-		background-color: #9867C5;
+		background-color: black;
 		transform: translateY(-2px);
 	}
 }
