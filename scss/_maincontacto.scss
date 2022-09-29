@@ -70,9 +70,10 @@ select {
 	color: #5A5A5A;
 	font: inherit;
 	margin: 0;
+	
 }
 textarea {
-	color: #5A5A5A;
+	color: white;
 	font: inherit;
 	margin: 0;
 }
@@ -217,4 +218,8 @@ button, select {
 }
 .input3{
 	border-bottom: solid 2px yellow;
+}
+
+.selector{
+	margin-top: 20px;
 }

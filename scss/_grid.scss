@@ -1,0 +1,23 @@
+.gridcontacto{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+
+    grid-template:
+    "header" auto
+    "main"   100px
+    "footer" auto /
+       auto; 
+
+}
+.header{grid-area: header;}
+.main{grid-area: main;
+margin: 30px;
+margin-top: 80px;}
+.footer{grid-area: footer;
+    display: flex;
+justify-content: center;
+}
